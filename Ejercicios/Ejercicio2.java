@@ -13,7 +13,7 @@ public class Ejercicio2 {
         List<String> list = new ArrayList<String>();
         try {
             BufferedReader br = new BufferedReader(new FileReader(
-                    "/mnt/c/Users/lzeni/OneDrive/Escritorio/Proyectos personales/java/Practica11/test.txt"));
+                    "/mnt/c/Users/lzeni/OneDrive/Documentos/GitHub/LabPractice11/Practica/Archivos/test.txt"));
             while (strLine != null) {
                 strLine = br.readLine();
                 sb.append(strLine);
