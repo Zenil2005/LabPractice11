@@ -23,9 +23,9 @@ public class Practica11 {
         FilePrinter filePrinter = new FilePrinter();
         WriteFile writeFile = new WriteFile();
 
-        String archivo1 = "/mnt/c/Users/lzeni/OneDrive/Escritorio/Proyectos personales/java/Practica11/archivo1.txt";
-        String archivo2 = "/mnt/c/Users/lzeni/OneDrive/Escritorio/Proyectos personales/java/Practica11/archivo2.txt";
-        String archivo3 = "/mnt/c/Users/lzeni/OneDrive/Escritorio/Proyectos personales/java/Practica11/archivo3.txt";
+        String archivo1 = "/mnt/c/Users/lzeni/OneDrive/Documentos/GitHub/LabPractice11/Practica/Archivos/archivo1.txt";
+        String archivo2 = "/mnt/c/Users/lzeni/OneDrive/Documentos/GitHub/LabPractice11/Practica/Archivos/archivo2.txt";
+        String archivo3 = "/mnt/c/Users/lzeni/OneDrive/Documentos/GitHub/LabPractice11/Practica/Archivos/archivo3.txt";
 
         filePrinter.imprimeArchivo(archivo1);
         String contenido1 = filePrinter.getStr_Data();
@@ -38,7 +38,7 @@ public class Practica11 {
 
         String compendio = contenido1 + contenido2 + contenido3;
 
-        String archivoDestino = "/mnt/c/Users/lzeni/OneDrive/Escritorio/Proyectos personales/java/Practica11/archivoDestino.txt";
+        String archivoDestino = "/mnt/c/Users/lzeni/OneDrive/Documentos/GitHub/LabPractice11/Practica/Archivos/archivoDestino.txt";
         writeFile.escribeArchivo(archivoDestino, compendio);
 
         System.out.println("Se han combinado los contenidos y escrito en archivoDestino.txt");
